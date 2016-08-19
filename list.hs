@@ -33,6 +33,6 @@ helpMaxTuples([],b) = ([],b)
 tupleExtractor :: ([[Double]],[(Double,Double)]) -> [(Double,Double)]
 tupleExtractor(a,b) = b
 
-maxTuples :: [[Double]] -> [(Double,Double)]
-maxTuples list = tupleExtractor(helpMaxTuples(list,[]))
+maxMinTupleList :: [[Double]] -> [(Double,Double)]
+maxMinTupleList list = tupleExtractor(helpMaxTuples(list,[]))
 
